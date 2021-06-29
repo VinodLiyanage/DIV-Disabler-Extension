@@ -1,0 +1,30 @@
+{
+    "name":"DIV Disabler",
+    "version": "1.0.0",
+    "description": "Disable all DIV elements that contain certain id attribute",
+    "manifest_version":3,
+    "action": {
+        "default_popup":"popup.html",
+        "default_title": "DIV Disabler",
+        "default_icon": {   
+          "16":"/assets/images/logo.png",
+          "24":"/assets/images/logo.png",
+          "32":"/assets/images/logo.png",
+          "128":"/assets/images/logo.png"                    
+      }
+    },
+    "permissions":[
+      "storage",
+      "tabs",
+      "scripting"
+    ],
+    "host_permissions":[
+        "<all_urls>"
+    ],
+    "icons": {   
+      "16":"/assets/images/logo.png",
+      "24":"/assets/images/logo.png",
+      "32":"/assets/images/logo.png",
+      "128":"/assets/images/logo.png"                    
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIV Disabler</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <style>
+      body {
+        width: 350px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-wrapper d-flex flex-column">
+        <div class="h6 m-1">DIV Disabler</div>
+        <div class="input-container">
+          <div class="input-group mt-1 mb-2">
+            <input
+              type="text"
+              id="inputDivId"
+              class="form-control"
+              placeholder="Target DIV id"
+              aria-label="Target DIV id"
+              aria-describedby="btnDivId"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="btnDivId"
+              disabled
+            >
+              Hide
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>
